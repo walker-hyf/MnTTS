@@ -1,0 +1,60 @@
+allow_cache: true
+batch_size: 16
+config: ./examples/fastspeech2/conf/fastspeech2.v1.yaml
+dev_dir: ./dump_mntts/valid/
+energy_stat: ./dump_mntts/stats_energy.npy
+eval_interval_steps: 500
+f0_stat: ./dump_mntts/stats_f0.npy
+fastspeech2_params:
+  attention_probs_dropout_prob: 0.1
+  decoder_attention_head_size: 192
+  decoder_hidden_act: mish
+  decoder_hidden_size: 384
+  decoder_intermediate_kernel_size: 3
+  decoder_intermediate_size: 1024
+  decoder_num_attention_heads: 2
+  decoder_num_hidden_layers: 4
+  encoder_attention_head_size: 192
+  encoder_hidden_act: mish
+  encoder_hidden_size: 384
+  encoder_intermediate_kernel_size: 3
+  encoder_intermediate_size: 1024
+  encoder_num_attention_heads: 2
+  encoder_num_hidden_layers: 4
+  hidden_dropout_prob: 0.2
+  initializer_range: 0.02
+  max_position_embeddings: 2048
+  n_speakers: 1
+  num_mels: 80
+  output_attentions: false
+  output_hidden_states: false
+  variant_prediction_num_conv_layers: 2
+  variant_predictor_dropout_rate: 0.5
+  variant_predictor_filter: 256
+  variant_predictor_kernel_size: 3
+format: npy
+gradient_accumulation_steps: 1
+hop_size: 256
+is_shuffle: true
+log_interval_steps: 200
+mel_length_threshold: 32
+mixed_precision: true
+model_type: fastspeech2
+num_save_intermediate_results: 1
+optimizer_params:
+  decay_steps: 150000
+  end_learning_rate: 5.0e-05
+  initial_learning_rate: 0.001
+  warmup_proportion: 0.02
+  weight_decay: 0.001
+outdir: ./examples/fastspeech2/exp/train.fastspeech2.v1/
+pretrained: ''
+remove_short_samples: true
+resume: ''
+save_interval_steps: 5000
+train_dir: ./dump_mntts/train/
+train_max_steps: 200000
+use_norm: true
+var_train_expr: null
+verbose: 1
+version: '1.8'
