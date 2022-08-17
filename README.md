@@ -1,3 +1,2 @@
 # MnTTS
 
-It coming soon!
