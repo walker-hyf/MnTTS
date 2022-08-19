@@ -56,7 +56,7 @@ tensorflow-tts-preprocess --rootdir ./MnTTS --outdir ./dump_mntts --config prepr
 ```
 
 ```
-tensorflow-tts-normalize --rootdir ./dump_MnTTS --outdir ./dump_mntts --config preprocess/mntts_preprocess.yaml --dataset mntts
+tensorflow-tts-normalize --rootdir ./dump_mntts --outdir ./dump_mntts --config preprocess/mntts_preprocess.yaml --dataset mntts
 ```
 
  
