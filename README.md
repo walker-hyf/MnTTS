@@ -206,7 +206,7 @@ The synthesized speech will save to `prediction/MnTTS_inference` folder.
 ## Links
 
 - Pre-trained models: [download pre-trained models](https://drive.google.com/file/d/1eVtGQvRd7UKAEHOCricQ5RSAgminoCd_/view?usp=sharing)
-- Demo: [link to synthesized audio samples](https://github.com/walker-hyf/MnTTS/prediction/MnTTS_inference)
+- Demo: [link to synthesized audio samples](https://github.com/walker-hyf/MnTTS/tree/main/prediction/MnTTS_inference)
 
 
 ## Author
