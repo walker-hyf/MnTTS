@@ -34,7 +34,7 @@ Prepare our MnTTS dataset in the following format:
 
 Where `metadata.csv` has the following format: `id|transcription`. This is a ljspeech-like format.
 
-[Here](https://drive.google.com/file/d/1Xtx5GCZBl_JdDeokjsiRpJ05oUl_Z1ef/view?usp=sharing) is our full dataset for download.
+Our full dataset will be published after the paper is accepted.
 
 
 
@@ -208,9 +208,6 @@ The synthesized speech will save to `prediction/MnTTS_inference` folder.
 - Pre-trained models: [download pre-trained models](https://drive.google.com/file/d/1eVtGQvRd7UKAEHOCricQ5RSAgminoCd_/view?usp=sharing)
 - Demo: [link to synthesized audio samples](https://github.com/walker-hyf/MnTTS/tree/main/prediction/MnTTS_inference)
 
-
-## Author
-E-mail: hyfwalker@163.com
 
 [//]: # (## Citation)
 [//]: # (Please kindly cite the following paper if you use this code repository in your work,)
