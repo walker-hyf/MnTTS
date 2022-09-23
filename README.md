@@ -34,8 +34,7 @@ Prepare our MnTTS dataset in the following format:
 
 Where `metadata.csv` has the following format: `id|transcription`. This is a ljspeech-like format.
 
-Our full dataset will be published after the paper is accepted.
-
+[The complete dataset is available from our multilingual corpus website](http://mglip.com/corpus/corpus_detail.html?corpusid=20220819185345).
 
 
 ## 2) Preprocessing
@@ -214,6 +213,10 @@ The synthesized speech will save to `prediction/MnTTS_inference` folder.
 [//]: # (```)
 [//]: # (```)
 
+
+## Author
+
+E-mail：hyfwalker@163.com
 
 ## Acknowledgements:
 
