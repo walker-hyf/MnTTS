@@ -181,7 +181,7 @@ CUDA_VISIBLE_DEVICES=0 python examples/hifigan/train_hifigan.py \
 
 ## 6) MnTTS Model Inference
 
-You can follow below example command line to generate synthesized speeh for given text in 'dump_mntts/inference.txt' using Griffin-Lim and trained HiFi-GAN vocoder:
+You can follow below example command line to generate synthesized speech for given text in 'dump_mntts/inference.txt' using Griffin-Lim and trained HiFi-GAN vocoder:
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python examples/fastspeech2/inference_fastspeech2.py \
