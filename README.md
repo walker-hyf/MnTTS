@@ -1,5 +1,14 @@
 # MnTTS: An Open-Source Mongolian Text-to-Speech Synthesis Dataset and Accompanied Baseline
  
+## Introduction
+This is an implementation of the following paper.
+> [MnTTS: An Open-Source Mongolian Text-to-Speech Synthesis Dataset and Accompanied Baseline.](https://arxiv.org/abs/2209.10848)
+> in Proc. IALP'2022
+
+Yifan Hu, Pengkai Yin, [Rui Liu *](https://ttslr.github.io/), Feilong Bao, Guanglai Gao.
+ 
+
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2209.10848)
 
 ## 0) Environment Preparation
 
