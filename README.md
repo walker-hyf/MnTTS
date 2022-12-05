@@ -222,6 +222,19 @@ The synthesized speech will save to `prediction/MnTTS_inference` folder.
 [//]: # (```)
 [//]: # (```)
 
+## Citation
+
+```bash
+@INPROCEEDINGS{9961271,  
+  author={Hu, Yifan and Yin, Pengkai and Liu, Rui and Bao, Feilong and Gao, Guanglai},  
+  booktitle={2022 International Conference on Asian Language Processing (IALP)},   
+  title={MnTTS: An Open-Source Mongolian Text-to-Speech Synthesis Dataset and Accompanied Baseline},   
+  year={2022},  
+  volume={},  
+  number={},  
+  pages={184-189},  
+  doi={10.1109/IALP57159.2022.9961271}}
+```
 
 ## Author
 
