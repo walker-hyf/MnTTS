@@ -233,7 +233,8 @@ The synthesized speech will save to `prediction/MnTTS_inference` folder.
   volume={},  
   number={},  
   pages={184-189},  
-  doi={10.1109/IALP57159.2022.9961271}}
+  doi={10.1109/IALP57159.2022.9961271}
+}
 ```
 
 ## Author
